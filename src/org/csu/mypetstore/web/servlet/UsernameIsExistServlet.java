@@ -37,6 +37,6 @@ public class UsernameIsExistServlet extends HttpServlet {
         out.print(str);
         out.flush();
         out.close();
-        System.out.println("zhjhhh");
+        System.out.println("zhjhhhh");
     }
 }
