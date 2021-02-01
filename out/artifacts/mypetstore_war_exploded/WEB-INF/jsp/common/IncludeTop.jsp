@@ -14,11 +14,6 @@
 <head>
     <link rel="StyleSheet" href="css/jpetstore.css" type="text/css" media="screen" />
 
-    <script type="text/javascript">
-        function changeValilmage(img){
-            img.src = "/viewImage?time=" + new Date();
-        }
-    </script>
 
     <meta name="generator"
           content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />

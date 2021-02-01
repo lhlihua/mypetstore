@@ -123,6 +123,14 @@
         <servlet-name>JumpSignonServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.servlet.view.JumpSignonServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UsernameIsExistServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlet.UsernameIsExistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsernameIsExistServlet</servlet-name>
+        <url-pattern>/UsernameIsExist</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>SignOutServlet</servlet-name>
