@@ -23,7 +23,6 @@ public class UsernameIsExistServlet extends HttpServlet {
         Account account = accountService.getAccount(username);
         response.setContentType("text/json");
         PrintWriter out = response.getWriter();
-
         Result result = new Result();
         if(account == null){
             //用户名可用
@@ -37,6 +36,5 @@ public class UsernameIsExistServlet extends HttpServlet {
         out.print(str);
         out.flush();
         out.close();
-        System.out.println("zhjhhhh");
     }
 }
