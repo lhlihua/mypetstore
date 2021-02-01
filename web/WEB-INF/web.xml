@@ -127,6 +127,14 @@
         <servlet-name>UsernameIsExistServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.servlet.UsernameIsExistServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AutoCompleteServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlet.AutoCompleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoCompleteServlet</servlet-name>
+        <url-pattern>/autoComplete</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>UsernameIsExistServlet</servlet-name>
         <url-pattern>/UsernameIsExist</url-pattern>

@@ -4,7 +4,6 @@ $(function () {
             type        :   "GET",
             url         :   "UsernameIsExist?username="+this.value,
             success     :   function (data) {
-                console.log(data);
                 if(data.msg === "Exist"){
                     $('#isExistInfo').attr("class","errormsg").text("用户名已存在");
                 }else{

@@ -26,6 +26,7 @@
     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="Pragma" content="no-cache" />
     <script type="text/javascript" src = "js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src = "js/jquery-ui.min.js"></script>
 </head>
 
 <body>
@@ -64,10 +65,11 @@
     <div id="Search">
         <div id="SearchContent">
             <form action="searchProduct" method="post">
-                <input type="text" name="keyword" size="14" />
+                <input type="text" name="keyword" size="14" id="SearchInput" />
                 <input type="submit" name="searchProducts" value="Search" />
             </form>
         </div>
+        <div class = "showResults"></div>
     </div>
 
     <div id="QuickLinks">
@@ -93,5 +95,6 @@
     </div>
 
 </div>
+<script src = "js/search.js"></script>
 
 <div id="Content">
