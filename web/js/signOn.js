@@ -18,14 +18,14 @@ function process(){
             var msg = document.getElementById("isExistInfo");
             console.log(msg);
             //如果用户名存在
-            if(responseInfo === "Exist"){
+            if(responseInfo === "Not Exist"){
                 msg.classList.remove("errormsg");
                 msg.classList.add("okmsg");
                 msg.innerText = "用户名可用";
             }else{
                 msg.classList.remove("okmsg");
                 msg.classList.add("errormsg");
-                msg.innerText = "用户名不可用";
+                msg.innerText = "用户名已存在";
             }
         }
     }

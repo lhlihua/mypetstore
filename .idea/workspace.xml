@@ -7,14 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="592b5b71-de2f-4d2e-a613-43900384743b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/css/jpetstore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/signOn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/signOn.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="-183">
               <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
             </state>
           </provider>
@@ -50,16 +49,16 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="223">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="638">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -78,11 +77,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/signOn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="224">
+              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -100,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlet/UsernameIsExistServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -196,12 +195,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/css/jpetstore.css" />
         <option value="$PROJECT_DIR$/src/org/csu/mypetstore/web/servlet/UsernameIsExistServlet.java" />
-        <option value="$PROJECT_DIR$/web/js/signOn.js" />
         <option value="$PROJECT_DIR$/web/js/search.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" />
+        <option value="$PROJECT_DIR$/web/js/signOn.js" />
       </list>
     </option>
   </component>
@@ -510,7 +509,7 @@
       <workItem from="1611826185611" duration="38000" />
       <workItem from="1612102688808" duration="71000" />
       <workItem from="1612108392322" duration="75000" />
-      <workItem from="1612138035747" duration="4285000" />
+      <workItem from="1612138035747" duration="4731000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1609818279072</created>
@@ -540,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1612141482503</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="用户名是否存在异步处理">
+      <created>1612142545540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612142545540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176365000" />
+    <option name="totallyTimeSpent" value="176811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -554,9 +560,9 @@
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" sideWeight="0.20679887" side_tool="true" visible="true" weight="0.2419571" />
+      <window_info id="Web" order="4" sideWeight="0.20718816" side_tool="true" visible="true" weight="0.2419571" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.79320115" visible="true" weight="0.2419571" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7928118" visible="true" weight="0.2419571" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956153" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -568,7 +574,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.33002833" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -902,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlet/UsernameIsExistServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/jpetstore.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -923,41 +922,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/search.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/signOn.js">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="223">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="-183">
           <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp">
+    <entry file="file://$PROJECT_DIR$/src/org/csu/mypetstore/web/servlet/UsernameIsExistServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="169">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/signOn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
