@@ -321,3 +321,10 @@ body>#Banner {
   background-color:#ccc;
   text-align:left;
 }
+
+.okmsg{
+  color: #005e21;
+}
+.errormsg{
+  color: red;
+}

@@ -7,7 +7,6 @@
 		<p>
 			Username:<input type="text" name="username" id = "username" value="${sessionScope.inputusername}"/><br />
 			Password:<input type="password" name="password" value="${sessionScope.inputpassword}"/><br />
-			<span id = "isExistInfo"></span><br />
 			<c:if test="${sessionScope.times>2}">
 				checktext:<input type="text" name = "imagetext"/><br />
 				<a href="login">
@@ -22,7 +21,6 @@
 		Need a user name and password?
 	<a class="Button" href="viewNewAccountForm">Register Now!</a>
 </div>
-<script src = "js/signOn.js"></script>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
 

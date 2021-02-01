@@ -8,7 +8,9 @@
 		<table>
 			<tr>
 				<td>User ID:</td>
-				<td><input type="text" name="username" /></td>
+				<td>
+					<input type="text" name="username" id = "username"/><span id = "isExistInfo"></span>
+				</td>
 			</tr>
 			<tr>
 				<td>New password:</td>
@@ -27,6 +29,8 @@
 
 		<input type="submit" name="newAccount" value="Save Account Information" />
 
-	</form></div>
+	</form>
+</div>
+<script src = "js/signOn.js"></script>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
