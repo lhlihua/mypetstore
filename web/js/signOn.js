@@ -19,12 +19,10 @@ function process(){
             console.log(msg);
             //如果用户名存在
             if(responseInfo === "Not Exist"){
-                msg.classList.remove("errormsg");
-                msg.classList.add("okmsg");
+                msg.className = "okmsg";
                 msg.innerText = "用户名可用";
             }else{
-                msg.classList.remove("okmsg");
-                msg.classList.add("errormsg");
+                msg.className = "errormsg";
                 msg.innerText = "用户名已存在";
             }
         }
