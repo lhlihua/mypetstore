@@ -10,6 +10,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="jsp-api" />
           <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="fastjson-1.2.75" />
         </element>
       </element>
     </root>
