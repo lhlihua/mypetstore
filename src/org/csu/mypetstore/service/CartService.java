@@ -1,6 +1,5 @@
 package org.csu.mypetstore.service;
 
-import org.csu.mypetstore.domain.Cart;
 import org.csu.mypetstore.domain.CartItem;
 import org.csu.mypetstore.persistence.CartDAO;
 import org.csu.mypetstore.persistence.Impl.CartDAOImpl;
@@ -23,5 +22,8 @@ public class CartService {
     }
     public void updateCartByItemId(CartItem cartItem, String username){
         cartDAO.updateCartByItemId(cartItem,username);
+    }
+    public void updateCartByItemId(String itemId , String username ,int quantity){
+        cartDAO.updateCartByItemId(itemId,username,quantity);
     }
 }
