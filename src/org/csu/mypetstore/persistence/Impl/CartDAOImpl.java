@@ -100,5 +100,21 @@ public class CartDAOImpl implements CartDAO {
         }
     }
 
+    @Override
+    public void updateCartByItemId(String ItemId, String username , int quantity) {
+        try{
+            Connection connection = DBUtil.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(UPDATECARTBYITEMID);
+            preparedStatement.setInt(1,quantity);
+            preparedStatement.setString(2,username);
+            preparedStatement.setString(3,ItemId);
+            System.out.println(preparedStatement.toString());
+            preparedStatement.executeUpdate();
+            DBUtil.closePreparedStatementETC(connection,preparedStatement,null);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 
 }

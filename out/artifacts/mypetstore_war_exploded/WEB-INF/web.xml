@@ -131,6 +131,14 @@
         <servlet-name>AutoCompleteServlet</servlet-name>
         <servlet-class>org.csu.mypetstore.web.servlet.AutoCompleteServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CartUpdateServlet</servlet-name>
+        <servlet-class>org.csu.mypetstore.web.servlet.CartUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartUpdateServlet</servlet-name>
+        <url-pattern>/cartUpdate</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AutoCompleteServlet</servlet-name>
         <url-pattern>/autoComplete</url-pattern>

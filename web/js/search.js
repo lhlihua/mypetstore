@@ -24,9 +24,6 @@ $(document).ready(function () {
         }
     });
 
-    $("body")._mouseUp(function () {
-        $(".showResults").hide();
-    })
     
 });
 

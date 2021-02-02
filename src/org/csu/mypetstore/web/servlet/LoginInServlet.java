@@ -39,6 +39,7 @@ public class LoginInServlet extends HttpServlet {
         account = accountService.getAccount(username,password);
 
         session.setAttribute("account",account);
+        session.setAttribute("username",username);
 
         accountLogin = (Boolean)session.getAttribute("accountLogin");
 

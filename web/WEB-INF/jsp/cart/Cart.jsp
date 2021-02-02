@@ -28,8 +28,8 @@
 			</tr>
 		</c:if>
 
-		<c:forEach var="cartItem" items="${sessionScope.cart.cartItems}">
-			<tr>
+		<c:forEach var="cartItem" items="${sessionScope.cart.cartItems}" >
+			<tr id = "${cartItem.item.itemId}" class = "cartItemUpdate">
 				<td>
 					<a href="VeiwItem?itemId=${cartItem.item.itemId}">${cartItem.item.itemId}</a>
 				</td>
@@ -47,22 +47,20 @@
 				<td>
 					<input type="text" name="${cartItem.item.itemId}" value="${cartItem.quantity}">
 				</td>
-				<td><fmt:formatNumber value="${cartItem.item.listPrice}"
+				<td class = "singlePrice"><fmt:formatNumber value="${cartItem.item.listPrice}"
 					pattern="$#,##0.00" />
 				</td>
-				<td><fmt:formatNumber value="${cartItem.total}"
-					pattern="$#,##0.00" /></td>
+				<td class = "listTotalPrice">
+					<fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" />
+				</td>
 				<td>
 					<a class="Button" href="removeItemFromCart?workingItemId=${cartItem.item.itemId}">Remove</a>
 				</td>
 			</tr>
 		</c:forEach>
 		<tr>
-			<td colspan="7">Sub Total: <fmt:formatNumber
+			<td class = "subtotal" colspan="7">Sub Total: <fmt:formatNumber
 					value="${sessionScope.cart.subTotal}" pattern="$#,##0.00" />
-			</td>
-			<td colspan="7">
-				<input type="submit" value="Update cart">
 			</td>
 			<td>&nbsp;</td>
 		</tr>
@@ -76,5 +74,7 @@
 
 <div id="Separator">&nbsp;</div>
 </div>
+
+<script src = "js/cartUpdate.js"></script>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
