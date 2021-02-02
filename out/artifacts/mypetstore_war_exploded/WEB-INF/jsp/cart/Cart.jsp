@@ -4,7 +4,7 @@
 	<a href="main">Return to Main Menu</a>
 </div>
 
-<div id="Catalog">
+<div class="Catalog">
 
 <div id="Cart">
 

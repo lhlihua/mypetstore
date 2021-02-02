@@ -51,7 +51,7 @@ public class ViewConfirmOrderServlet extends HttpServlet {
             orderService.insertLineItem(lineItem);
         }
         Date date = new Date();
-        order = new Order();
+        order = (Order) session.getAttribute("order");
 
         order.setStatus("P");
         order.setLineItems(orderService.getLineItemsByOrderId(orderId));
@@ -67,21 +67,17 @@ public class ViewConfirmOrderServlet extends HttpServlet {
         order.setCardType(request.getParameter("cardType"));
 
         order.setShipToFirstName(request.getParameter("billToFirstName"));
-        order.setShipToLastName(request.getParameter("billToLastName"));
-        order.setBillToFirstName(request.getParameter("billToFirstName"));
-        order.setBillToLastName(request.getParameter("billToLastName"));
-        order.setShipAddress1(request.getParameter("billAddress1"));
-        order.setBillAddress1(request.getParameter("billAddress1"));
-        order.setShipAddress2(request.getParameter("billAddress2"));
-        order.setBillAddress2(request.getParameter("billAddress2"));
-        order.setBillCity(request.getParameter("billCity"));
-        order.setShipCity(request.getParameter("billCity"));
-        order.setBillState(request.getParameter("billState"));
-        order.setShipState(request.getParameter("billState"));
-        order.setShipZip(request.getParameter("billZip"));
-        order.setBillZip(request.getParameter("billZip"));
-        order.setShipCountry(request.getParameter("billCountry"));
-        order.setBillCountry(request.getParameter("billCountry"));
+
+        System.out.println(request.getParameter("billToFirstName"));
+
+        order.setShipToFirstName(request.getParameter("shipToFirstName"));
+        order.setShipAddress1(request.getParameter("shipAddress1"));
+        order.setShipAddress2(request.getParameter("shipAddress2"));
+        order.setShipCity(request.getParameter("shipCity"));
+        order.setShipState(request.getParameter("shipState"));
+        order.setShipZip(request.getParameter("shipZip"));
+        order.setShipCountry(request.getParameter("shipCountry"));
+
         session.setAttribute("order",order);
         cartService = new CartService();
         List<CartItem>cartItems = cart.getCartItemList();
@@ -90,13 +86,6 @@ public class ViewConfirmOrderServlet extends HttpServlet {
             cartService.deleteCartByItemId(cartItems.get(0),account.getUsername());
             cart.removeItemById(cartItems.get(0).getItem().getItemId());
         }
-
-        String temp = request.getParameter("shippingAddressRequired");
-        if(temp == null){
-            request.getRequestDispatcher(CONFIRM_ORDER).forward(request,response);
-        }else{
-            request.getRequestDispatcher(SHIPPING).forward(request,response);
-        }
-
+        request.getRequestDispatcher(CONFIRM_ORDER).forward(request,response);
     }
 }

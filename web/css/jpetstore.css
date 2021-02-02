@@ -275,13 +275,13 @@ body>#Banner {
   width: 50%;
 }
 
-#Catalog {
+.Catalog {
   padding: 1ex;
   background:inherit;
   text-align:center;
 }
 
-#Catalog input[type="submit"]{
+.Catalog input[type="submit"]{
   padding: .3ex;
   color: #fff;
   background-color: #005e21;
@@ -290,13 +290,13 @@ body>#Banner {
   font-size: 1.5ex;
   border-width:0;
 }
-#Catalog input[type="submit"]:hover {
+.Catalog input[type="submit"]:hover {
   color: #000;
   background-color: #54c07a;
   cursor:pointer;
 }
 
-#Catalog table{
+.Catalog table{
   margin-left:auto;
   margin-right:auto;
 }
@@ -328,3 +328,37 @@ body>#Banner {
 .errormsg{
   color: red;
 }
+
+.tab { margin:10px 0px 0px 285px; width:600px; position:relative; overflow:hidden; height:1%; height:400px;  background-color:#6699ff}
+.tab h3 { z-index:2; font-size:12px; width:95px; height:25px; line-height:25px; text-align:center; float:left; margin-right:5px;background-color: #aa7467
+}
+h3.active { background-position:0 -25px; color:#fff;background-color: #222222}
+h3.over{cursor:pointer;background-color: #ffbe80
+}
+
+#tab_1,#tab_2{
+  padding-top: 50px;
+  border:1px solid #ace; z-index:1;
+}
+#tab_2{
+  display: none;
+}
+#tab_2 table{
+  margin-left: 33px;
+}
+#First_lab{
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  padding: 5px;
+}
+#Second_lab{
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  padding: 5px;
+}
+.origin_lab{
+  background-color:#aa7467;
+}
+
